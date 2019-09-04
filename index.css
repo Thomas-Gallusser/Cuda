@@ -2,18 +2,19 @@ body {
  background-color: #87509c;
 }
 
-ul {
+/* MENU */
+#menu  ul {
  padding:0;
  margin:0;
  list-style-type:none;
 }
 
-li {
+#menu  li {
  margin-left:2px;
  float:left;
 }
 
-ul li a {
+#menu ul li a {
  font-family: 'Titillium Web', sans-serif;
  font-weight: bold;
  width: 5em;
@@ -22,7 +23,7 @@ ul li a {
  padding:10px;
 }
 
-ul li a:hover {
+#menu ul li a:hover {
  background-image: url("images/hover.png");
  background-size: 100% 100%;
  text-decoration:none;
@@ -35,17 +36,48 @@ ul li a:hover {
  right: 13%;
 }
 
+/* LOGO */
 #logo {
  margin-left:15%;
  margin-top:20px;
 }
 
+/* TEXTE CENTRAL */
 #texteCentral {
-    color:white;
-    margin-top:100px;
-    margin-left:18%;
-    margin-right:18%;
-    font-weight: bold;
-    font-size: 31px;
+ color:white;
+ margin-top:100px;
+ margin-left:auto;
+ margin-right:auto;
+ font-weight: bold;
+ font-size: 31px;
+ text-align:center;
+ font-family: 'Titillium Web', sans-serif;
+}
+
+/* BOUTTON */
+
+#bouton {
     text-align:center;
+}
+
+#bouton a{
+ display:block;
+ margin-left:auto;
+ margin-right:auto;
+ width:296px;
+ line-height:73px;
+ text-align:center;
+ vertical-align:middle;
+ font-weight: bold;
+ background:url(images/button.png) no-repeat;
+ color:white;
+ text-decoration:none;
+}
+
+#bouton a:hover{
+    
+}
+
+#bouton p{
+    
 }
