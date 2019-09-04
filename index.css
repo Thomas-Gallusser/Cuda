@@ -1,0 +1,41 @@
+body {
+ background-color: #87509c;
+}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+}
+
+li {
+ margin-left:2px;
+ float:left;
+}
+
+ul li a {
+ font-family: 'Titillium Web', sans-serif;
+ font-weight: bold;
+ width: 5em;
+ color:white;
+ text-decoration:none;
+ padding:10px;
+}
+
+ul li a:hover {
+ background-image: url("images/hover.png");
+ background-size: 100% 100%;
+ text-decoration:none;
+ color:white;
+}
+
+#menu {
+ position: absolute;
+ top: 20px;
+ right: 13%;
+}
+
+#logo {
+ margin-left:15%;
+ margin-top:20px;
+}
