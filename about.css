@@ -1,0 +1,86 @@
+body {
+ background-color:#d74680;
+ color: white;
+ font-family: 'Titillium Web', sans-serif;
+}
+
+/* LOGO */
+#logo {
+ margin-left:15%;
+ margin-top:20px;
+}
+
+/* MENU */
+#menu {
+ position: absolute;
+ top: 5px;
+ right: 10%;
+}
+
+#menu ul {
+ text-align:right;
+}
+#menu li {
+ display:inline-block;
+}
+#menu ul li a {
+ font-size:16px;
+ color:white;
+ text-decoration:none;
+ padding:10px;
+}
+#menu ul li a:hover {
+ background-color:rgba(0, 0, 0, 0.5);
+ background-size: 100% 100%;
+}
+
+/* TITRE */
+
+#titre h1 {
+ font-weight: bold;
+ font-size:31px;
+ text-align:center;
+ margin-bottom:0px;
+}
+#titre img {
+ display: block;
+ margin: auto;
+ width:60px;
+ height:5px;
+}
+#titre p {
+ text-align:center;
+}
+
+/* ÉLÉMENTS */
+
+#elements * img {
+ width:15%;
+ float:left;
+}
+
+#elements {
+ text-align:center;
+}
+
+#elements div {
+ text-align:left;
+ display:inline-block;
+ margin-bottom:30px;
+}
+#infos {
+ margin-left:30px;
+}
+
+#elements * p, * h4 {
+ display:inline-block;
+ margin: 0px 0px 0px 0px; 
+}
+
+#com {
+ font-style:italic;
+}
+
+#job {
+ color:#ffdd99;
+}
