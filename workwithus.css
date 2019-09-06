@@ -1,0 +1,106 @@
+body {
+    background-color: #e7f1f8;
+    color: #3c4761;
+}
+
+/* LOGO */
+#logo {
+ margin-left:15%;
+ margin-top:20px;
+}
+
+/* MENU */
+#menu  ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+}
+
+#menu  li {
+ margin-left:2px;
+ float:left;
+}
+
+#menu ul li a {
+ font-family: 'Titillium Web', sans-serif;
+ font-size:16px;
+ color:black;
+ text-decoration:none;
+ padding:10px;
+}
+
+#menu ul li a:hover {
+ background-color:rgba(0, 0, 0, 0.5);
+ background-size: 100% 100%;
+ text-decoration:none;
+ color:black;
+}
+
+#menu {
+ position: absolute;
+ top: 20px;
+ right: 13%;
+}
+
+/* TITRE */
+#titre {
+ text-align:center;    
+}
+
+#titre h1 {
+ font-family: 'Titillium Web', sans-serif;
+ font-weight: bold;
+ font-size:31px;
+ display: inline;
+}
+
+#titre img {
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width:60px;
+ height:5px;
+}
+
+#titre p {
+ font-family: 'Titillium Web', sans-serif;
+ text-align:center;
+}
+
+
+/* ÉLÉMENTS */
+#elements #anne {
+    margin-left:15%;
+	display: inline-block;
+    text-align:center;
+}
+
+#elements #kate, #olivia, #ashley {
+    margin-left:5%;
+	display: inline-block;
+    text-align:center;
+}
+
+#elements #kate img,#olivia img, #ashley img {
+    /*margin-left:25%;*/
+}
+
+#elements h2 {
+ font-family: 'Titillium Web', sans-serif;
+ font-weight: bold;
+ display: inline;
+}
+#elements p {
+ font-family: 'Titillium Web', sans-serif;
+}
+
+/* JOB COLOR */
+#job {
+ color: #30bae7;
+ display: inline; 
+}
+
+/* CONTACT IMG */
+#contact img {
+ margin-left: 5px;
+}
