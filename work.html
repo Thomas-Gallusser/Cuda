@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    
+    <!-- Header -->
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Cuda maquette</title>
+        <meta name="description" content="We build awesome webistes and mobiles app."/>
+		
+		<!-- Twitter Card data -->
+		<meta name="twitter:card" value="summary"/>
+		
+		<!-- Open Graph data -->
+		<meta property="og:title" content="Cuda maquette"/>
+		<meta property="og:type" content="website"/>
+		<meta property="og:url" content=""/>
+		<meta property="og:image" content=""/>
+		<meta property="og:description" content="We build awesome webistes and mobiles app."/>
+        
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="work.css"/>
+        
+        <!-- Google Font: Titillium Web -->
+        <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
+    </head>
+    
+    <body  onload="selectPortfiolio(0);">
+		<!-- JavaScript -->
+		<script type="text/javascript" src="work.js"></script>
+		
+        <section id="logo">
+            <a href="index.html"><img src="images/logo b.png"/></a>
+        </section>
+        
+        <section id="menu">
+                <ul>
+                  <li><a href="home.html">HOME</a></li>
+                  <li><a href="about.html">ABOUT</a></li>
+                  <li><a href="work.html">WORK</a></li>
+                  <li><a href="">BLOG</a></li>
+                  <li><a href="">CONTACT</a></li>
+                </ul>
+        </section>
+        
+        <!-- Corps de la page -->
+        <section id="titre">
+            <h1>OUR PORTFOLIO</h1>
+            <img src="images/line.png"/>
+            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br/>consectetur, adipisci velit, sed quia non numquam</p>
+        </section>
+     
+     	<section id="menu_portfolio">
+        	<!-- JavaScript affichage web/apps/icons -->
+			<ul>
+				<li><a id="btnAll" onClick="selectPortfiolio(0);">ALL</a></li>
+            	<li><a id="btnWeb" onClick="selectPortfiolio(1);">WEB</a></li>
+                <li><a id="btnApps" onClick="selectPortfiolio(2);">APPS</a></li>
+                <li><a id="btnIcons" onClick="selectPortfiolio(3);">ICONS</a></li>
+            </ul>
+        </section>
+        
+        <section id="elements">
+            <div id="web">
+            	<img src="images/web.png"/><br/>
+            	<p>ISOMETRIC PERSPECTIVE MOCK-UP</p>
+            </div>
+            
+            <div id="app">
+                <img src="images/app.png"/><br/>
+                <p>TIME ZONE APP UI</p>
+            </div>
+         
+            <div id="playersui">
+                <img src="images/playersui.png"/><br/>
+                <p>VIRO MEDIA PLAYERS UI</p>
+            </div>
+            
+            <div id="icons">
+                <img src="images/icons.png"/><br/>
+                <p>BLOG / MAGAZINE FLAT UI KIT</p>
+            </div>
+        </section>        
+         <!-- Fin du corps de la page -->
+    </body>
+</html>
