@@ -10,13 +10,13 @@ body {
 }
 
 /* MENU */
-#menu  ul {
+#menu ul {
  padding:0;
  margin:0;
  list-style-type:none;
 }
 
-#menu  li {
+#menu li {
  margin-left:2px;
  float:left;
 }
@@ -52,6 +52,7 @@ body {
  font-weight: bold;
  font-size:31px;
  display: inline;
+ margin-bottom:0px;
 }
 
 #titre img {
