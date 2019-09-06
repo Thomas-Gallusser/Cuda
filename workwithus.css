@@ -1,6 +1,7 @@
 body {
-    background-color: #e7f1f8;
-    color: #3c4761;
+ background-color: #e7f1f8;
+ color: #3c4761;
+ font-family: 'Titillium Web', sans-serif;
 }
 
 /* LOGO */
@@ -24,7 +25,6 @@ body {
 }
 
 #menu ul li a {
- font-family: 'Titillium Web', sans-serif;
  font-size:16px;
  color:#3c4761;
  text-decoration:none;
@@ -43,7 +43,6 @@ body {
 }
 
 #titre h1 {
- font-family: 'Titillium Web', sans-serif;
  font-weight: bold;
  font-size:31px;
  display: inline;
@@ -59,7 +58,6 @@ body {
 }
 
 #titre p {
- font-family: 'Titillium Web', sans-serif;
  text-align:center;
 }
 
@@ -77,17 +75,9 @@ body {
     text-align:center;
 }
 
-#elements #kate img,#olivia img, #ashley img {
-    /*margin-left:25%;*/
-}
-
 #elements h2 {
- font-family: 'Titillium Web', sans-serif;
  font-weight: bold;
  display: inline;
-}
-#elements p {
- font-family: 'Titillium Web', sans-serif;
 }
 
 /* JOB COLOR */

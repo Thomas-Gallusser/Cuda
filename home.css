@@ -1,5 +1,7 @@
 body {
  background-color: #17c2a4;
+ font-family: 'Titillium Web', sans-serif;
+ color:white;
 }
 
 /* LOGO */
@@ -23,11 +25,10 @@ body {
 }
 
 #menu ul li a {
- font-family: 'Titillium Web', sans-serif;
  font-size:16px;
- color:#3c4761;
  text-decoration:none;
  padding:10px;
+ color:white;
 }
 
 #menu ul li a:hover {
@@ -38,7 +39,6 @@ body {
 /* TITRE */
 
 #titre h1 {
- font-family: 'Titillium Web', sans-serif;
  color:white;
  font-weight: bold;
  font-size:31px;
@@ -55,7 +55,6 @@ body {
 }
 
 #titre p {
- font-family: 'Titillium Web', sans-serif;
  color:white;
  text-align:center;
 }
@@ -76,13 +75,9 @@ body {
 }
 
 #elements h4 {
- font-family: 'Titillium Web', sans-serif;
- color:white;
  font-weight: bold;    
  text-align:center;
 }
 #elements p {
- font-family: 'Titillium Web', sans-serif;
- text-align:center;
  color:white;    
 }
