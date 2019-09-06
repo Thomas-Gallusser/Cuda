@@ -18,13 +18,16 @@
 		<meta property="og:description" content="We build awesome webistes and mobiles app."/>
         
         <!-- CSS -->
-        <link rel="stylesheet" type="text/css" href="work.css"/>
+        <link rel="stylesheet" type="text/css" href="blog.css"/>
         
         <!-- Google Font: Titillium Web -->
         <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
     </head>
     
-    <body>        
+    <body  onload="selectPortfiolio(0);">
+		<!-- JavaScript -->
+		<script type="text/javascript" src="work.js"></script>
+		
         <section id="logo">
             <a href="index.html"><img src="images/logo b.png"/></a>
         </section>
@@ -41,37 +44,46 @@
         
         <!-- Corps de la page -->
         <section id="titre">
-            <h1>WE GOT SKILLS!</h1>
+            <h1>OUR PORTFOLIO</h1>
             <img src="images/line.png"/>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod<br/>tempor incididunt ut labor et dolore magna aliqua.</p>
+            <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet<br/>consectetur, adipisci velit, sed quia non numquam</p>
+        </section>
+     
+     	<section id="menu_portfolio">
+        	<!-- JavaScript affichage web/apps/icons -->
+			<ul>
+				<li><a id="btnAll" onClick="selectPortfiolio(0);">ALL</a></li>
+            	<li><a id="btnWeb" onClick="selectPortfiolio(1);">WEB</a></li>
+                <li><a id="btnApps" onClick="selectPortfiolio(2);">APPS</a></li>
+                <li><a id="btnIcons" onClick="selectPortfiolio(3);">ICONS</a></li>
+            </ul>
         </section>
         
-        
         <section id="elements">
-            <div id="design">
-            	<img src="images/design.png"/>
-            	<p>90%</p><br/>
-            	<h2>WEB DESIGN</h2>
+            <div id="web">
+            	<img src="images/web.png"/><br/>
+            	<p>ISOMETRIC PERSPECTIVE MOCK-UP</p>
             </div>
             
-            <div id="html">
-                <img src="images/html.png"/>
-            	<p>75%</p><br/>
-                <h2>HTML / CSS</h2>
+            <div id="app">
+                <img src="images/app.png"/><br/>
+                <p>TIME ZONE APP UI</p>
+            </div>
+         
+            <div id="playersui">
+                <img src="images/playersui.png"/><br/>
+                <p>VIRO MEDIA PLAYERS UI</p>
             </div>
             
-            <div id="graphic">
-                <img src="images/graphic.png"/>
-            	<p>70%</p><br/>
-                <h2>GRAPHIC DESIGN</h2>
+            <div id="icons">
+                <img src="images/icons.png"/><br/>
+                <p>BLOG / MAGAZINE FLAT UI KIT</p>
             </div>
-            
-            <div id="ui">
-                <img src="images/ui.png"/>
-            	<p>85%</p><br/>
-                <h2>UI / UX</h2>
-            </div>
-        </section>        
+        </section>		
+		
+        <section id="bouton">
+            <p><a href="">LOAD MORE PROJECTS</a></p>
+        </section>
          <!-- Fin du corps de la page -->
     </body>
 </html>
