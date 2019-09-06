@@ -30,6 +30,12 @@ body {
  padding:10px;
 }
 
+#menu ul li a:hover {
+ background-color:rgba(0, 0, 0, 0.5);
+ background-size: 100% 100%;
+}
+
+
 /* TITRE */
 
 #titre h1 {
