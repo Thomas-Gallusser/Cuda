@@ -16,39 +16,33 @@ body {
  top: 5px;
  right: 10%;
 }
-
 #menu ul {
  text-align:right;
 }
 #menu li {
  display:inline-block;
 }
-
 #menu ul li a {
  font-size:16px;
  color:#3c4761;
  text-decoration:none;
  padding:10px;
 }
-
 #menu ul li a:hover {
  background-color:rgba(0, 0, 0, 0.5);
  background-size: 100% 100%;
 }
 
-
 /* TITRE */
 #titre {
  text-align:center;    
 }
-
 #titre h1 {
  font-weight: bold;
  font-size:31px;
  display: inline;
  margin-bottom:0px;
 }
-
 #titre img {
  display: block;
  margin-left: auto;
@@ -56,7 +50,6 @@ body {
  width:60px;
  height:5px;
 }
-
 #titre p {
  text-align:center;
 }
@@ -68,13 +61,11 @@ body {
 	display: inline-block;
     text-align:center;
 }
-
 #elements #kate, #olivia, #ashley {
     margin-left:5%;
 	display: inline-block;
     text-align:center;
 }
-
 #elements h2 {
  font-weight: bold;
  display: inline;

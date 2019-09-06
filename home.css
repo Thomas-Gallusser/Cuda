@@ -16,36 +16,30 @@ body {
  top: 5px;
  right: 10%;
 }
-
 #menu ul {
  text-align:right;
 }
 #menu li {
  display:inline-block;
 }
-
 #menu ul li a {
- font-size:16px;
+ font-size:14px;
+ color:white;
  text-decoration:none;
  padding:10px;
- color:white;
 }
-
 #menu ul li a:hover {
  background-color:rgba(0, 0, 0, 0.5);
  background-size: 100% 100%;
 }
 
 /* TITRE */
-
 #titre h1 {
  color:white;
- font-weight: bold;
  font-size:31px;
  text-align:center;
  margin-bottom:0px;
 }
-
 #titre img {
  display: block;
  margin-left: auto;
@@ -53,7 +47,6 @@ body {
  width:60px;
  height:5px;
 }
-
 #titre p {
  color:white;
  text-align:center;
@@ -64,16 +57,13 @@ body {
     margin-left:15%;
 	display: inline-block;
 }
-
 #elements #crayon, #gear, #rocket {
     margin-left:5%;
 	display: inline-block;
 }
-
 #elements #crayon img,#flag img, #rocket img {
     margin-left:25%;
 }
-
 #elements h4 {
  font-weight: bold;    
  text-align:center;

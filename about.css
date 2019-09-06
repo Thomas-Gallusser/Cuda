@@ -16,7 +16,6 @@ body {
  top: 5px;
  right: 10%;
 }
-
 #menu ul {
  text-align:right;
 }
@@ -24,7 +23,7 @@ body {
  display:inline-block;
 }
 #menu ul li a {
- font-size:16px;
+ font-size:14px;
  color:white;
  text-decoration:none;
  padding:10px;
@@ -35,7 +34,6 @@ body {
 }
 
 /* TITRE */
-
 #titre h1 {
  font-weight: bold;
  font-size:31px;
@@ -53,35 +51,29 @@ body {
 }
 
 /* ÉLÉMENTS */
-
 #elements * img {
  width:15%;
  float:left;
 }
-
 #elements {
  text-align:center;
  margin-left:7%;
 }
-
 #elements div {
  text-align:left;
  display:inline-block;
  margin-bottom:30px;
 }
-#infos {
- margin-left:30px;
-}
-
 #elements * p, * h4 {
  display:inline-block;
  margin: 0px 0px 0px 0px; 
 }
-
+#infos {
+ margin-left:30px;
+}
 #com {
  font-style:italic;
 }
-
 #job {
  color:#ffdd99;
 }

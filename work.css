@@ -15,21 +15,18 @@ body {
  top: 5px;
  right: 10%;
 }
-
 #menu ul {
  text-align:right;
 }
 #menu li {
  display:inline-block;
 }
-
 #menu ul li a {
- font-size:16px;
+ font-size:14px;
  color:#3c4761;
  text-decoration:none;
  padding:10px;
 }
-
 #menu ul li a:hover {
  background-color:rgba(0, 0, 0, 0.5);
  background-size: 100% 100%;
@@ -37,14 +34,12 @@ body {
 
 
 /* TITRE */
-
 #titre h1 {
  font-weight: bold;
  font-size:31px;
  text-align:center;
  margin-bottom:0px;
 }
-
 #titre img {
  display: block;
  margin-left: auto;
@@ -52,11 +47,9 @@ body {
  width:60px;
  height:5px;
 }
-
 #titre p {
  text-align:center;
 }
-
 
 /* ÉLÉMENTS */
 #elements #design {
@@ -65,19 +58,16 @@ body {
     text-align:center;
   	position: relative;
 }
-
 #elements #html, #graphic, #ui {
     margin-left:7%;
 	display: inline-block;
     text-align:center;
   	position: relative;
 }
-
 #elements h2 {
  font-weight: bold;
  display: inline;
 }
-
 #elements p {
  position: absolute;
  top: 20%;
