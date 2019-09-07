@@ -94,10 +94,11 @@ body {
  font-size: 18px;
  line-height: 73px;
  text-align:center;
- vertical-align:middle;
  font-weight: bold;
- background:url(images/loadmore.png) no-repeat;
  color:white;
- text-decoration:none;
- padding-bottom: 80px;
+ font-family: 'Titillium Web', sans-serif;
+ border-bottom: 5px solid rgba(0,0,0,0.2);
+ background-color: #30bae7;
+ border-radius: 5px;
+ margin-bottom: 80px;
 }
