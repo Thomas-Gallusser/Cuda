@@ -25,6 +25,9 @@
     </head>
     
     <body>
+		<!-- JavaScript -->
+		<script type="text/javascript" src="contact.js"></script>
+     
         <section id="logo">
             <a href="index.html"><img src="images/logo.png"/></a>
         </section>
@@ -47,21 +50,29 @@
         </section>
      
 		<section id="formulaire">
-			<form action="send.php" method="post">
+			<p id="confirm"></p>
+        	<form>
 				<div id="haut">
 					<div id="name">
-                    	<input placeholder="Your Name*" type="text"/>
+                    	<input id="inputName" placeholder="Your Name*" type="text"/>
 					</div>
 					<div id="mail">
-						<input placeholder="Your Email*" type="text"/>
+						<input id="inputMail" placeholder="Your Email*" type="text"/>
 					</div>
 				</div>
-                <textarea placeholder="Your Message*" id="msg"></textarea>
+                <textarea id="msg" placeholder="Your Message*"></textarea>
+				<button id="sendMsg" type="button" onClick="sendMessage();">SEND MESSAGE</button>
 			</form>
 		</section>
 
 		<section id="reseaux">
-			
+			<a href="">Facebook</a>
+			<a href="" id="twitter">Twitter</a>
+			<a href="">Google+</a>
+			<a href="">LinkedIn</a>
+			<a href="">Behance</a>
+			<a href="">Dribble</a>
+			<a href="">GitHub</a>
 		</section>
          <!-- Fin du corps de la page -->
     </body>

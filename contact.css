@@ -83,10 +83,39 @@ body {
 #haut {
  padding-bottom:50px;
 }
+#sendMsg {
+ width:296px;
+ line-height:62px;
+ font-family: 'Titillium Web', sans-serif;
+ font-size:18px;
+ font-weight: bold;
+ border:0px;
+ border-bottom: 5px solid rgba(0,0,0,0.2);
+ border-radius: 5px;
+ background-color: #30bae7;
+ color: white;
+ margin-top: 35px;
+ cursor:pointer;
+}
 
 /* RESEAUX */
 #reseaux {
-	background-color:#344b8e;
-	display:flex;
-	padding: 50px;
+ background-color: #344b8e;
+ padding: 10px 0px;
+ position:fixed;
+ bottom: 0px;
+ width: 100%;
+ text-align: center;
+}
+#reseaux a {
+ font-family: 'Titillium Web', sans-serif;
+ font-weight: bold;
+ font-size:18px;
+ color:white;
+ text-decoration:none;
+ padding: 0px 20px;
+ 
+}
+#reseaux #twitter {
+ color: #30bae7;
 }
